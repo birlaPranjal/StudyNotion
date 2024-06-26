@@ -1,0 +1,41 @@
+# Node.js and npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables and configuration
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs and runtime files
+/log
+*.log
+
+# Dependency management
+.pnp.js
+.pnp.cjs
+.pnp.mjs
+
+# VS Code specific files
+.vscode/
+*.code-workspace
+
+# Editor-specific files
+.DS_Store
+
+# Miscellaneous
+Thumbs.db
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# testing
+/coverage
+
+# production
+/build
